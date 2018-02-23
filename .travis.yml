@@ -1,12 +1,9 @@
 language: python
 python:
-  - "3.3"
-  - "3.4"
-  - "3.5"
   - "3.6"
 install:
   - pip install -r dev_requirements.txt
 script:
-  - ./linters.sh && coverage run setup.py test
+  - ./linters.sh && coverage run --source=. setup.py test
 after_success:
   - coveralls

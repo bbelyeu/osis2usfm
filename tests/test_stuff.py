@@ -13,3 +13,8 @@ class TestConversions(unittest.TestCase):
         osis = ['Gen.1.1', '2Pet.1.1', 'John.1.1']
         usfms = convert(osis)
         self.assertEqual(['GEN.1.1', '2PE.1.1', 'JHN.1.1'], usfms)
+
+    def test_conversion_single(self):
+        """Test the some converstions."""
+        usfm = convert('Ps.119.105')
+        self.assertEqual('PSA.119.105', usfm)

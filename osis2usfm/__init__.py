@@ -93,8 +93,10 @@ def convert(osis_refs):
     *Note*: This method doesn't validate any references. It simply takes a map of books that are
     different between OSIS & USFM and converts them.
     """
+    is_string = False
     if isinstance(osis_refs, str):
         osis_refs = [osis_refs]
+        is_string = True
 
     usfm_refs = []
 
@@ -109,9 +111,4 @@ def convert(osis_refs):
 
         usfm_refs.append('.'.join(parts))
 
-    return usfm_refs
-
-
-def __main__():
-    """Used if called via CLI."""
-    pass
+    return usfm_refs if is_string is False else usfm_refs[0]
