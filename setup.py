@@ -8,7 +8,7 @@ setup(
     download_url='https://github.com/bbelyeu/osis2usfm/archive/1.2.zip',
     license='MIT',
     author='Brad Belyeu',
-    author_email='bradleylamar+osis2usfm@gmail.com',
+    author_email='bradleylamar@gmail.com',
     description='Convert a list of OSIS references to USFM.',
     long_description=__doc__,
     packages=['osis2usfm'],
