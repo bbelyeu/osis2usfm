@@ -1,5 +1,8 @@
 # osis2usfm
 
+[![Build Status](https://travis-ci.org/bbelyeu/osis2usfm.svg?branch=master)](https://travis-ci.org/bbelyeu/osis2usfm)
+[![Coverage Status](https://coveralls.io/repos/github/bbelyeu/osis2usfm/badge.svg?branch=master)](https://coveralls.io/github/bbelyeu/osis2usfm?branch=master)
+
 ## Requirements
 
 This project requires Python 3 (tested with 3.3-3.6)
