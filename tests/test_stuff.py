@@ -1,7 +1,6 @@
 """Test the OSIS to USFM conversion module."""
 # pylint: disable=no-member
 import unittest
-from unittest.mock import MagicMock
 
 from osis2usfm import convert  # isort:skip
 
