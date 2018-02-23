@@ -3,9 +3,9 @@ from setuptools import setup
 
 setup(
     name='osis2usfm',
-    version='1.0',
+    version='1.2',
     url='https://github.com/bbelyeu/osis2usfm',
-    download_url='https://github.com/bbelyeu/osis2usfm/archive/1.0.zip',
+    download_url='https://github.com/bbelyeu/osis2usfm/archive/1.2.zip',
     license='MIT',
     author='Brad Belyeu',
     author_email='bradleylamar+osis2usfm@gmail.com',
