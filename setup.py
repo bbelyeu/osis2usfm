@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='osis2usfm',
-    version='1.2',
+    version='1.3',
     url='https://github.com/bbelyeu/osis2usfm',
     download_url='https://github.com/bbelyeu/osis2usfm/archive/1.2.zip',
     license='MIT',
@@ -15,9 +15,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     platforms='any',
-    install_requires=[
-        'Flask'
-    ],
+    install_requires=[],
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
